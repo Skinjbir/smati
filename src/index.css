@@ -16,10 +16,11 @@ body {
 
 /* Big Container */
 .bigContainer {
+  margin-top: 50px;
   display: flex;
   justify-content: space-between;
   align-content: center;
-  width: 1080px; /* fixed width for large screens */
+  width: 1080px; 
   height: 500px;
   color: #777;
 }
