@@ -46,7 +46,11 @@ body {
     
   }
 }
-
+@media (max-width: 1450px) {
+  .bigContainer {
+    margin-top: 150px;
+  }
+}
 @media (max-width: 1097px) {
   /* Adjust flex proportions for smaller screens */
   .leftContainer, .rightContainer {
