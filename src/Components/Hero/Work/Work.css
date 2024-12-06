@@ -8,7 +8,13 @@
     color: #000;
     opacity: 1;
     transition: opacity 0.5s ease;
+    overflow-y: auto;
+    padding-top: 200px;
   }
+  .rightContainer::-webkit-scrollbar {
+    display: none;
+  }
+
   
   .rightContainer.hidden {
     opacity: 0;
@@ -18,7 +24,8 @@
   .rightContainer h1 {
     font-weight: 500;
     color: black;
-  }
+  
+    }
   
   /* Work Item */
   .WorkItem {

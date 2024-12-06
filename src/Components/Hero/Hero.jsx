@@ -2,7 +2,12 @@ import React from 'react';
 import './Hero.css';
 import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { MdAlternateEmail } from "react-icons/md";
+import { FaLinkedinIn } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
+import { CiLinkedin } from "react-icons/ci";
+
+
+import { MdOutlineAlternateEmail } from "react-icons/md";
 
 function Header({ toggleWork }) { // Receive toggleWork as a prop
   return (
@@ -15,9 +20,9 @@ function Header({ toggleWork }) { // Receive toggleWork as a prop
         <p>Get my <span>Resume</span></p>
         <p><span id='touch'>Get in touch</span></p>
         <div className="icons">
-          <FaLinkedin className='icon'/>
-          <FaGithubSquare className='icon'/>
-          <MdEmail className='icon'/>
+          <CiLinkedin className='icon'/>
+          <FaGithub className='icon'/>
+          <MdOutlineAlternateEmail className='icon'/>
         </div>
       </div>
     </div>
